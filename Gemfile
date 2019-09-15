@@ -9,6 +9,10 @@ gem 'rails', '~> 5.2.3'
 # Adding Rspec to project
 gem 'rspec-rails', '~> 3.5'
 
+# gem to comunicate with api
+gem 'rest-client'
+gem 'webmock'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
